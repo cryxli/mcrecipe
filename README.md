@@ -34,7 +34,7 @@ tool minecraft:furnace
 
 ### Size
 
-The first "command" of a resipe is `size`. It describes how many spaces the crafting grid should have.
+The first "command" of a recipe is `size`. It describes how many spaces the crafting grid should have.
 
 It understands any combination of "width times height" including odd shaped recipes like 3x1 or 1x2.
 
