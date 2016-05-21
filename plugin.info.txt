@@ -1,0 +1,8 @@
+base    mcrecipe
+author  Urs P. Stettler
+email   minecraft@cryx.li
+date    2016-05-15
+name    Minecraft Recipe Plugin
+desc    Add Minecraft recipes to dokuwiki using dokuwiki resources.
+url     https://github.com/cryxli/mcrecipe
+

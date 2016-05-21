@@ -1,0 +1,51 @@
+
+.dokuwiki table.mc-recipe,
+.dokuwiki table.mc-recipe td,
+.dokuwiki table.mc-tool,
+.dokuwiki table.mc-tool td { border: 0px; }
+.dokuwiki table.mc-recipe td { vertical-align: middle; }
+
+.dokuwiki table.mc-recipe {
+    border: none;
+}
+
+.dokuwiki table.mc-input,
+.dokuwiki table.mc-output {
+    border: none;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.dokuwiki table.mc-output td,
+.dokuwiki table.mc-input td {
+	background-color: #ccc;
+	padding: 4px;
+	min-width: 32px;
+	height: 32px;
+}
+
+.dokuwiki table.mc-output td span.number,
+.dokuwiki table.mc-input td span.number {
+	color: #0ef;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	text-shadow: 2px 2px 0 #3f3f3f;
+}
+
+.dokuwiki table.mc-input tr:first-child td:first-child,
+.dokuwiki table.mc-output tr:first-child td:first-child {
+    border-top-left-radius: 5px;
+}
+.dokuwiki table.mc-input tr:first-child td:last-child,
+.dokuwiki table.mc-output tr:first-child td:last-child {
+    border-top-right-radius: 5px;
+}
+.dokuwiki table.mc-input tr:last-child td:first-child,
+.dokuwiki table.mc-output tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+.dokuwiki table.mc-input tr:last-child td:last-child,
+.dokuwiki table.mc-output tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
