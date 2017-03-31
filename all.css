@@ -1,51 +1,38 @@
 
-.dokuwiki table.mc-recipe,
-.dokuwiki table.mc-recipe td,
-.dokuwiki table.mc-tool,
-.dokuwiki table.mc-tool td { border: 0px; }
-.dokuwiki table.mc-recipe td { vertical-align: middle; }
+table.mc-recipe,
+table.mc-recipe td,
+table.mc-tool,
+table.mc-tool td { border: 0px; }
+table.mc-recipe td { vertical-align: middle; }
 
-.dokuwiki table.mc-recipe {
-    border: none;
+table.mc-recipe {
+    border: 2px solid;
+    border-color: #DBDBDB #5B5B5B #5B5B5B #DBDBDB;
+    background-color: #C6C6C6;
 }
 
-.dokuwiki table.mc-input,
-.dokuwiki table.mc-output {
+table.mc-input,
+table.mc-output {
     border: none;
     border-collapse: separate;
     border-spacing: 5px;
 }
 
-.dokuwiki table.mc-output td,
-.dokuwiki table.mc-input td {
-	background-color: #ccc;
-	padding: 4px;
+table.mc-output td,
+table.mc-input td {
+        background: #8B8B8B no-repeat center center / 32px 32px;
+        border: 2px solid;
+        border-color: #373737 #FFF #FFF #373737;
+	padding: 0px;
 	min-width: 32px;
 	height: 32px;
 }
 
-.dokuwiki table.mc-output td span.number,
-.dokuwiki table.mc-input td span.number {
+table.mc-output td span.number,
+table.mc-input td span.number {
 	color: #0ef;
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 16px;
 	text-shadow: 2px 2px 0 #3f3f3f;
-}
-
-.dokuwiki table.mc-input tr:first-child td:first-child,
-.dokuwiki table.mc-output tr:first-child td:first-child {
-    border-top-left-radius: 5px;
-}
-.dokuwiki table.mc-input tr:first-child td:last-child,
-.dokuwiki table.mc-output tr:first-child td:last-child {
-    border-top-right-radius: 5px;
-}
-.dokuwiki table.mc-input tr:last-child td:first-child,
-.dokuwiki table.mc-output tr:last-child td:first-child {
-    border-bottom-left-radius: 5px;
-}
-.dokuwiki table.mc-input tr:last-child td:last-child,
-.dokuwiki table.mc-output tr:last-child td:last-child {
-    border-bottom-right-radius: 5px;
 }
