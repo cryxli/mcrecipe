@@ -3,6 +3,8 @@
 This project implements a syntax plugin for [Dokuwiki](https://www.dokuwiki.org/plugins).
 It adds a `<recipe>` tag to the syntax that lets you define any kind of (creafting) recipes.
 
+[[https://raw.githubusercontent.com/wiki/cryxli/mcrecipe/images/recipe_ex_01.png]]
+
 The goal is to only use resources that are already present within the wikispace.
 
 ## Concept
