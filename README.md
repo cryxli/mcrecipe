@@ -85,7 +85,7 @@ The spaces and double-quotes are only there to illustrate the pieces from which 
 
 "wiki page" is prefixed with `:mods:` and therefore resolves the detail page and when suffixed again with `.png` the image of a block.
 
-"amount" defines the quantity of an item that is used in the resipe. If omitted exacly one is assumed.
+"amount" defines the quantity of an item that is used in the recipe. If omitted exacly one is assumed.
 Only amounts larger than one are indicated with numbers.
 
 Note that `tool` also takes an item stack as an argument, but it will ignore any amounts.
