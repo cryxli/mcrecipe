@@ -87,3 +87,8 @@ The spaces and double-quotes are only there to illustrate the pieces from which 
 Only amounts larger than one are indicated with numbers.
 
 Note that `tool` also takes an item stack as an argument, but it will ignore any amounts.
+
+### Thanks
+
+Thanks to [drcrazy](https://github.com/drcrazy) for the Minecraft like styling!
+
