@@ -99,7 +99,7 @@ class syntax_plugin_mcrecipe extends DokuWiki_Syntax_Plugin {
 		return $input;
 	}
 
-	function handle($match, $state, $pos, &$handler) {
+	function handle($match, $state, $pos, $handler) {
 		$args = array($state);
 		switch ($state) {
 			case DOKU_LEXER_ENTER:
@@ -131,7 +131,7 @@ class syntax_plugin_mcrecipe extends DokuWiki_Syntax_Plugin {
 		return $args;
 	}
 
-	function renderItem(&$renderer, $item) {
+	function renderItem($renderer, $item) {
 		if ($item[0] == 'air') {
 			// do nothing
         } else {
@@ -144,7 +144,7 @@ class syntax_plugin_mcrecipe extends DokuWiki_Syntax_Plugin {
 		}
 	}
 
-	function render($format, &$renderer, $data) {
+	function render($format, $renderer, $data) {
 		$state = $data[0];
 		if (substr($format, 0, 5) == 'xhtml') {
 			switch ($state) {
