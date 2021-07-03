@@ -92,5 +92,5 @@ Note that `tool` also takes an item stack as an argument, but it will ignore any
 
 ### Thanks
 
-Thanks to [drcrazy](https://github.com/drcrazy) for the Minecraft like styling!
+Thanks to [drcrazy](https://github.com/drcrazy) for the Minecraft like styling! And thanks to [dali99](https://github.com/dali99) for updating to [Hogfather](https://www.dokuwiki.org/changes#release_2020-07-29_hogfather).
 
